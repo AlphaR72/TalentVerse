@@ -1,0 +1,112 @@
+/* =====================
+   Global Reset & Theme
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, Arial, sans-serif;
+}
+
+body {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+/* =====================
+   Page Layout
+===================== */
+.page {
+  min-height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+/* =====================
+   Headings
+===================== */
+h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/* =====================
+   Cards
+===================== */
+.card {
+  background: #0f172a;
+  padding: 1.6rem;
+  margin-bottom: 1.6rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* =====================
+   Lists
+===================== */
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* =====================
+   Buttons
+===================== */
+button {
+  padding: 12px 22px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(99, 102, 241, 0.45);
+}
+
+/* Secondary button */
+button.secondary {
+  background: transparent;
+  border: 1px solid #6366f1;
+  color: #a5b4fc;
+}
+
+button.secondary:hover {
+  background: rgba(99, 102, 241, 0.1);
+}
+
+/* =====================
+   Actions group
+===================== */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+/* =====================
+   Inputs
+===================== */
+input,
+textarea {
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 0.9rem;
+  resize: none;
+}
